@@ -1,9 +1,36 @@
-body {
-  background-color: #1b1b1b;
-  color: white;
+:root {
+  --branding-color: #6c63ff;
+  --home-color: #f9f7fe;
 }
 
+.hero {
+  text-align: center;
+  padding: 150px 25px;
+  background-color: var(--home-color);
+}
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
   font-weight: bold;
+  line-height: 128px;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.hero p {
+  font-size: 36px;
+
+  font-weight: bold;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  padding: 18px 45px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins", sans-serif;
 }
