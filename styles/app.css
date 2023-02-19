@@ -68,6 +68,18 @@ p {
 .description {
   padding: 120px 60px;
 }
+.about-hero {
+  padding: 120px 25px;
+}
+.about-hero h1 {
+  font-size: 64px;
+}
+.about-hero h2 {
+  font-size: 18px;
+}
+.about-hero-content {
+  margin: 30px;
+}
 
 @media (max-width: 960px) {
   h1 {
@@ -80,6 +92,10 @@ p {
     padding: 60px 20px;
   }
   .description {
+    text-align: center;
+    padding: 0;
+  }
+  .about-hero {
     text-align: center;
     padding: 0;
   }
