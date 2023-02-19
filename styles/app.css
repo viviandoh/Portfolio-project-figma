@@ -88,6 +88,9 @@ p {
 .page-hero-content {
   margin: 30px;
 }
+.inquiry-section {
+  background-color: var(--home-color);
+}
 
 @media (max-width: 960px) {
   h1 {
