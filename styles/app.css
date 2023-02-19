@@ -5,10 +5,10 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Playfair Display", serif;
 }
+
 .hero {
   text-align: center;
   padding: 120px 25px;
@@ -68,16 +68,24 @@ p {
 .description {
   padding: 120px 60px;
 }
-.about-hero {
+.page-hero {
   padding: 120px 25px;
 }
-.about-hero h1 {
+.page-hero-content h1 {
   font-size: 64px;
 }
-.about-hero h2 {
+.page-hero-content h2 {
   font-size: 18px;
 }
-.about-hero-content {
+.page-hero-content h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.page-hero-content p {
+  font-size: 14px;
+}
+.page-hero-content {
   margin: 30px;
 }
 
