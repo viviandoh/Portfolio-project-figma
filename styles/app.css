@@ -93,6 +93,7 @@ p {
 }
 .inquiry-section {
   background-color: var(--home-color);
+  padding: 30px;
 }
 nav {
   padding: 20px 0;
