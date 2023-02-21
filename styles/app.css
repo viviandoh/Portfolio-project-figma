@@ -116,6 +116,32 @@ nav a {
   color: #272142;
   transition: all 150ms ease-in-out;
 }
+footer {
+  margin: 60px 0;
+}
+footer .email-links {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.email-links:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  background: var(--home-color);
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
