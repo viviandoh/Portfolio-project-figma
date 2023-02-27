@@ -3,6 +3,9 @@
   --home-color: #f9f7fe;
   --btn-branding-color: #fff;
 }
+body {
+  background-color: #c7d7e4;
+}
 
 .logo {
   max-width: 150px;
@@ -14,7 +17,7 @@ h2 {
 
 .hero {
   text-align: center;
-  padding: 120px 25px;
+  padding: 80px 25px;
   background-color: var(--home-color);
 }
 .hero h2 {
@@ -72,7 +75,7 @@ p {
   padding: 120px 60px;
 }
 .page-hero {
-  padding: 120px 25px;
+  padding: 63px 25px;
 }
 .page-hero-content h1 {
   font-size: 64px;
@@ -150,9 +153,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 45px;
   }
-  .hero {
-    padding: 60px 20px;
-  }
+
   .description {
     text-align: center;
     padding: 0;
